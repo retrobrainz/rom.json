@@ -21,12 +21,25 @@ Standard JSON format
 ```json
 {
   "name": "Yu Yu Hakusho - Makyou Toitsusen (Japan)",
+  "description": "...",
   "platform": "Sega - Mega Drive - Genesis",
   "regions": [ "Japan" ],
   "languages": [ "Ja" ],
   "genres": [ "Fighting" ],
   "developers": [ "Treasure" ],
   "publishers": [ "Sega" ],
-  "releaseDate": "1994-09-30"
+  "releaseDate": "1994-09-30",
+  "translations": [
+    {
+      "locale": "ja",
+      "name": "幽遊白書 魔強統一戦 (日本)",
+      "description": "..."
+    },
+    {
+      "locale": "zh-CN",
+      "name": "幽游白书 魔强统一战 (日本)",
+      "description": "..."
+    },
+  ]
 }
 ```
