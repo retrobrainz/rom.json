@@ -1,6 +1,6 @@
 # rom.json
 
-portable game ROM metadata specification
+Portable game ROM metadata file specification
 
 ## File name
 
@@ -20,6 +20,13 @@ Standard JSON format
 
 ```json
 {
-  "name": "My Retro Game"
+  "name": "Yu Yu Hakusho - Makyou Toitsusen (Japan)",
+  "platform": "Sega - Mega Drive - Genesis",
+  "regions": [ "Japan" ],
+  "languages": [ "Ja" ],
+  "genres": [ "Fighting" ],
+  "developers": [ "Treasure" ],
+  "publishers": [ "Sega" ],
+  "releaseDate": "1994-09-30"
 }
 ```
