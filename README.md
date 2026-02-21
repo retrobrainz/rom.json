@@ -6,13 +6,13 @@ Portable game ROM metadata file specification
 
 *.rom.json share same file name as rom files, but with different extension.
 
-```
-Yu Yu Hakusho - Makyou Toitsusen (Japan).md # ROM
-Yu Yu Hakusho - Makyou Toitsusen (Japan).rom.json # ROM metadata
-Yu Yu Hakusho - Makyou Toitsusen (Japan).boxart.jpg/png # Boxart image
-Yu Yu Hakusho - Makyou Toitsusen (Japan).snap.jpg/png # Screenshot image
-Yu Yu Hakusho - Makyou Toitsusen (Japan).title.jpg/png # Titlescreen image
-```
+| File name | Description |
+| --- | --- |
+| Yu Yu Hakusho - Makyou Toitsusen (Japan).md | ROM |
+| Yu Yu Hakusho - Makyou Toitsusen (Japan).rom.json | Metadata |
+| Yu Yu Hakusho - Makyou Toitsusen (Japan).boxart.jpg/png | Boxart image |
+| Yu Yu Hakusho - Makyou Toitsusen (Japan).snap.jpg/png | Screenshot image |
+| Yu Yu Hakusho - Makyou Toitsusen (Japan).title.jpg/png | Titlescreen image |
 
 ## File format
 
