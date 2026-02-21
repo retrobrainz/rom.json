@@ -33,12 +33,18 @@ Standard JSON format
     {
       "locale": "ja",
       "name": "幽遊白書 魔強統一戦 (日本)",
-      "description": "..."
+      "description": "...",
+      "regions": [ "日本" ],
+      "languages": [ "日本語" ],
+      "genres": [ "対戦格闘" ]
     },
     {
       "locale": "zh-CN",
       "name": "幽游白书 魔强统一战 (日本)",
-      "description": "..."
+      "description": "...",
+      "regions": [ "日本" ],
+      "languages": [ "日语" ],
+      "genres": [ "格斗" ]
     },
   ]
 }
