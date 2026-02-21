@@ -34,14 +34,14 @@ In some cases, ROM is a folder that contains many files:
 1. Unmerged arcade (MAME) ROM
 2. Extracted ISO (Some emulators, like RPCS3, don't support ISO/CHD format, you have extract all files)
 
-In this case, metadata file and image files should be placed directly under the ROM folder and named with `_`.
+In this case, metadata file and image files should be placed directly under the ROM folder and named as following:
 
 | File name | Description |
 | --- | --- |
-| _.rom.json | Metadata |
-| _.boxart.jpg/png | Boxart image |
-| _.snap.jpg/png | Screenshot image |
-| _.title.jpg/png | Titlescreen image |
+| rom.json | Metadata |
+| boxart.jpg/png | Boxart image |
+| snap.jpg/png | Screenshot image |
+| title.jpg/png | Titlescreen image |
 
 ## File format
 
