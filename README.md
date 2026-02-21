@@ -4,6 +4,8 @@ Portable game ROM metadata file specification
 
 ## File name
 
+### Single-file ROM
+
 *.rom.json share same file name as rom files, but with different extension.
 
 | File name | Description |
@@ -14,9 +16,34 @@ Portable game ROM metadata file specification
 | Yu Yu Hakusho - Makyou Toitsusen (Japan).snap.jpg/png | Screenshot image |
 | Yu Yu Hakusho - Makyou Toitsusen (Japan).title.jpg/png | Titlescreen image |
 
-## File format
+Some disc images are dumped as `.bin` file and `.cue` file. They are also treated as single file ROM, though two file :-)
 
-Standard JSON format
+| File name | Description |
+| --- | --- |
+| Crash Bandicoot (USA).bin | ROM data |
+| Crash Bandicoot (USA).cue | ROM index |
+| Crash Bandicoot (USA).rom.json | Metadata |
+| Crash Bandicoot (USA).boxart.jpg/png | Boxart image |
+| Crash Bandicoot (USA).snap.jpg/png | Screenshot image |
+| Crash Bandicoot (USA).title.jpg/png | Titlescreen image |
+
+### Extract ROM and multi-file ROM
+
+In some cases, ROM is a folder that contains many files:
+
+1. Unmerged arcade (MAME) ROM
+2. Extracted ISO (Some emulators, like RPCS3, don't support ISO/CHD format, you have extract all files)
+
+In this case, metadata file and image files should be placed directly under the ROM folder and named with `_`.
+
+| File name | Description |
+| --- | --- |
+| _.rom.json | Metadata |
+| _.boxart.jpg/png | Boxart image |
+| _.snap.jpg/png | Screenshot image |
+| _.title.jpg/png | Titlescreen image |
+
+## File format
 
 ```json
 {
@@ -45,7 +72,7 @@ Standard JSON format
       "regions": [ "日本" ],
       "languages": [ "日语" ],
       "genres": [ "格斗" ]
-    },
+    }
   ]
 }
 ```
