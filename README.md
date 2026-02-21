@@ -27,7 +27,7 @@ Some disc images are dumped as `.bin` file and `.cue` file. They are also treate
 | Crash Bandicoot (USA).snap.jpg/png | Screenshot image |
 | Crash Bandicoot (USA).title.jpg/png | Titlescreen image |
 
-### Extract ROM and multi-file ROM
+### Extracted ROM and Unmerged Arcade(MAME) ROM
 
 In some cases, ROM is a folder that contains many files:
 
